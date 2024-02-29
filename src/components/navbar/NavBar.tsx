@@ -3,7 +3,7 @@ import { FaCircleUser,FaPeopleGroup,FaPix,FaMessage,FaCirclePlus,FaEllipsisVerti
 
 const NavBar = () => {
   return (
-    <div style={{width:400,height:60,backgroundColor:'lightgrey',display:'flex',alignItems:'center',paddingLeft:20,paddingRight:20}}>
+    <div style={{width:419,height:60,backgroundColor:'lightgrey',display:'flex',alignItems:'center',paddingLeft:20,paddingRight:20}}>
         <div style={{display:'flex',flex:2}}>
     <div style={{height:50,width:50,borderRadius:'50%',display:'flex',justifyContent:'center',alignItems:'center'}}>
        <FaCircleUser style={{height:40,width:40}} color='whitesmoke'/>

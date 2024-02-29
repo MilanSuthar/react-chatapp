@@ -5,7 +5,8 @@ const ChatList = () => {
   return (
     <div>
         <ul style={{padding:0}}>
-            <ChatListItem/>
+           {Array(15).fill(1).map((item,index)=>
+            <ChatListItem key={index}/>)}
         </ul>
     </div>
   )
