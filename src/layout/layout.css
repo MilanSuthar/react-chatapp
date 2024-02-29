@@ -1,0 +1,21 @@
+.user {
+    display: flex;
+    flex-direction:column;
+    background-color:#e7e7e7;
+    height: 100%;
+    position: relative;
+}
+.user::before{
+    content: "";
+    height: 120px;
+    background-color: #588157;
+}
+.containerdiv{
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    background-color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
