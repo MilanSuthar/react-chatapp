@@ -1,11 +1,11 @@
 import React from 'react'
 import { FaCircleUser,FaPeopleGroup,FaPix,FaMessage,FaCirclePlus,FaEllipsisVertical } from 'react-icons/fa6'
 
-const NavBar = () => {
+const NavBar = ({toggleDrawer}:any) => {
   return (
     <div style={{width:419,height:60,backgroundColor:'lightgrey',display:'flex',alignItems:'center',paddingLeft:20,paddingRight:20}}>
         <div style={{display:'flex',flex:2}}>
-    <div style={{height:50,width:50,borderRadius:'50%',display:'flex',justifyContent:'center',alignItems:'center'}}>
+    <div style={{height:50,width:50,borderRadius:'50%',display:'flex',justifyContent:'center',alignItems:'center'}} onClick={toggleDrawer}>
        <FaCircleUser style={{height:40,width:40}} color='whitesmoke'/>
     </div>
     </div>
